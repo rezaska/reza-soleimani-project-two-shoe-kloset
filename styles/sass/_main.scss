@@ -1,0 +1,346 @@
+.findout-more {
+    background-color: $secondary;
+    height: 650px;
+
+    .main__text-box {
+        padding: 200px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+    }
+
+    .paragraph--large {
+        @include fontDef(52px, $primary);
+        font-family: 'Pompiere', cursive;
+    }
+
+    .paragraph {
+        @include fontDef(20px, #0d0d0d);
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        line-height: 32px;
+    }
+
+    .button {
+        background-color: $primary;
+        @include fontDef(20px, white);
+        border: none;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        }
+}
+
+.add-opt {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    .flex-image1 {
+        box-shadow: 30px 30px #FE6F19;
+
+    }
+
+    .flex-text1 {
+        width: 40%;
+        padding-right: 10%;
+        padding-bottom: 100px;
+
+        .paragraph--large {
+            @include fontDef(42px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.3px;
+        }
+
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+        }
+
+        .flex-button1 {
+        background-color: #882C07;
+        @include fontDef(20px, white);
+        border: none;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        }                       
+    }
+
+    .flex-text2 {
+        width: 40%;
+        padding-left: 10%;
+        padding-bottom: 100px;
+        text-align: right;
+
+        .paragraph--large {
+            @include fontDef(42px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.3px;
+        }
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+        }
+
+        .flex-button1 {
+        background-color: #882C07;
+        @include fontDef(20px, white);
+        border: none;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        }        
+    }
+
+    .flex-image2 {
+        box-shadow: -30px 30px #FE6F19;
+    }
+}
+
+.info {
+    background-color: $secondary;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 650px;
+
+    .locations {
+        width: 40%;
+        padding-top: 100px;
+
+        .paragraph--large {
+            display: inline;
+            @include fontDef(52px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.6px;
+        }
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+            padding-left: 8%;
+        }
+    }
+
+    .community {
+        width: 40%;
+        padding-top: 100px;
+
+        .paragraph--large {
+            display: inline;
+            @include fontDef(52px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.6px;
+        }
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+        }
+    }
+
+    .blog {
+        width: 40%;
+        padding-top: 30px;
+
+        .paragraph--large {
+            display: inline;
+            @include fontDef(52px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.6px;
+        }
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+        }
+    }
+
+    .intouch {
+        width: 40%;
+        padding-top: 30px;
+
+        .paragraph--large {
+            display: inline;
+            @include fontDef(52px, $primary);
+            font-family: 'Pompiere', cursive;
+            letter-spacing: 1.6px;
+        }
+        .paragraph {
+            @include fontDef(20px, #0d0d0d);
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            line-height: 32px;
+        }
+    }
+}
+
+.popular {
+
+    height: auto;
+    display: inline-block;
+    text-align: center;
+
+    .popular-image {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 30px 30px #FE6F19;
+    }
+
+    .popular-textbox {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+        padding-left: 7%;
+        padding-bottom: 100px;
+    }
+
+    .paragraph--large {
+        @include fontDef(42px, $primary);
+        font-family: 'Pompiere', cursive;
+        letter-spacing: 1.3px;
+    }
+
+    .paragraph {
+        @include fontDef(20px, $primary);
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        line-height: 32px;
+    }
+
+    .flex-button2 {
+    background-color: #882C07;
+    @include fontDef(20px, white);
+    border: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    }      
+}
+
+.gallery-images {
+    height: 500px;
+    background-color: $secondary;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+
+    .gallery-image1,
+    .gallery-image2,
+    .gallery-image3 {
+        margin-top: 40px;
+        padding: 10px;
+    }
+}
+
+.footer {
+    background-color: #882C07;
+    text-align: center;
+    .footer-text {
+        margin: 0 auto;
+        padding: 10px;
+        @include fontDef(20px, white);
+        font-family: 'Lato', sans-serif;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+img {
+    max-width:100%
+}
+
+.fas {
+    display: inline;
+    color: white;
+    background-color: $primary;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.main-container {
+    background-color: $secondary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+    .side-container {
+        width: 35%;
+        padding-top: 70px;
+    }
+
+    .blog-container {
+        width: 60%;
+
+        .blog-image{
+            box-shadow: -30px 30px #FE6F19;
+        }
+
+        .blog-text-container {
+            background-color: white;
+            display: inline-block;
+            .blog-text {
+                padding: 50px;
+                padding-right: 100px;
+
+                .paragraph--large {
+                    @include fontDef(42px, $primary);
+                    font-family: 'Pompiere', cursive;
+                    letter-spacing: 1.3px;
+                }
+
+                .paragraph--small {
+                    @include fontDef(20px, #0d0d0d);
+                    font-family: 'Lato', sans-serif;
+                    font-weight: bold;
+                    line-height: 32px;
+                }
+
+                .paragraph {
+                    @include fontDef(20px, #0d0d0d);
+                    font-family: 'Lato', sans-serif;
+                    font-weight: normal;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+}

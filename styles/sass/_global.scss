@@ -1,0 +1,17 @@
+$primary: #4C0341;
+$secondary: #FAE5FF;
+
+$shadow: #FE6F19;
+$button: #882C07;
+
+@mixin fontSize($sizeValue) {
+    font-size: $sizeValue;
+    font-family: 'Pompiere', cursive;
+    color: $primary;
+    font-weight: 400;
+}
+
+@mixin fontDef($sizeValue, $fontColor) {
+    font-size: $sizeValue;
+    color: $fontColor;
+}
