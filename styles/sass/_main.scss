@@ -468,7 +468,6 @@ p {
 
     .top-image-container {
         position: absolute;
-        bottom: -60px;
     }
 
     .side-text-container {
@@ -556,7 +555,7 @@ p {
             background-color: white;
             padding: 50px;
             box-shadow: -30px 30px #FE6F19;
-            height: 600px;
+            height: auto;
 
             .name-item {
                 display: flex;

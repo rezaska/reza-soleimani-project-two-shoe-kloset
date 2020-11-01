@@ -1,0 +1,232 @@
+@media (max-width: 1260px) {
+
+    .main-header {
+        .main-header__list-wrapper {
+            display: none;
+        }
+
+        .main-header__logo {
+            width: auto;
+            color: white;
+            padding-left: 20px;
+        }
+
+        #hamburger {
+            display: block;
+            color: black;
+            font-size: 25px;
+            float: right;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+
+        .main-header__main-text {
+            color: white;
+            width: auto;
+            padding-right: 50px;
+        }
+
+        .main-header__side-image {
+            display: none;
+        }
+    }
+
+    .findout-more {
+        .main__text-box {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 100px;
+        }
+    }
+
+    .add-opt {
+        display: block;
+
+        .flex-image1 {
+            text-align: center;
+        }
+
+        .flex-text1 {
+            width: auto;
+            text-align: center;
+            padding: 10px;
+            padding-top: 40px;
+        }
+
+        .flex-text2 {
+            width: auto;
+            text-align: center;
+            padding: 10px;
+            padding-top: 90px;
+        }
+
+        .flex-image2 {
+            text-align: center;
+        }
+    }
+
+    .info {
+        display: block;
+        height: auto;
+
+        .locations,
+        .community {
+            width: auto;
+            text-align: center;
+            padding-right: 40px;
+        }
+
+        .blog,
+        .intouch {
+            width: auto;
+            text-align: center;
+            padding-right: 40px;
+            padding-top: 120px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .popular {
+        display: block;
+
+        .popular-image {
+            padding-top: 50px;
+        }
+
+        .popular-textbox {
+            width: auto;
+            text-align: center;
+            padding-right: 40px;
+        }
+    }
+
+    .gallery-images {
+        height: auto;
+    }
+
+    .blog-header {
+        height: 550px;
+        background-position: right;
+
+        .main-header__list-wrapper {
+            display: none;
+        }
+
+        .main-header__logo {
+            width: auto;
+            color: black;
+            padding-left: 20px;
+        }
+
+        .hamburger-menu {
+            display: block;
+            color: black;
+            font-size: 25px;
+            float: right;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .main-container {
+        display: block;
+        background-color: white;
+
+        .side-container {
+            width: auto;
+            padding-top: 10px;
+
+            .top-image-container {
+                position: static;
+                text-align: center;
+            }
+
+            .side-text-container {
+                width: 100%;
+                float: none;
+                padding-top: 50px;
+
+                .paragraph--large {
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        .blog-container {
+            width: auto;
+            position:static;
+            float: none;
+
+            .main-header__main-text {
+                display: inline;
+                font-size: 60px;
+                text-align: center;
+            }
+
+            .blog-comments {
+                padding-left: 30px;
+            }
+
+            .form-container {
+                display: block;
+                height: auto;
+                padding: 30px;
+
+                .message-form {
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+
+    .contact-header {
+        background-position: inherit;
+        
+        .main-header__list-wrapper {
+            display: none;
+        }
+
+        .main-header__logo {
+            width: auto;
+            color: black;
+            padding-left: 20px;
+        }
+
+        .hamburger-menu {
+            display: block;
+            color: black;
+            font-size: 25px;
+            float: right;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .get-intouch {
+        display: block;
+        height: auto;
+
+        .contact-info {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 50px ;
+        }
+
+        .form-container {
+            display: block;
+            position: static;
+            width: auto;
+
+            .form-header {
+                display: block;
+                text-align: center;
+                font-size: 60px;
+            }
+        }
+    }
+
+
+}

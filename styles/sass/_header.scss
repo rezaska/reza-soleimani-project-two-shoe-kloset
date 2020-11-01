@@ -23,6 +23,11 @@
     .main-header__list-wrapper {
         text-align: center;
         float: right;
+
+        a {
+            text-decoration: none;
+            color: #0D0D0D;
+        }
     }
 
     .main-header__list-items {
@@ -56,6 +61,14 @@
         position: relative;
         bottom: 350px;
     }
+
+    #hamburger {
+        display: none;
+        color: black;
+        font-size: 30px;
+        float: right;
+        padding-top: 50px;
+    }
 }
 
 .blog-header {
@@ -82,6 +95,11 @@
     .main-header__list-wrapper {
         text-align: center;
         float: right;
+
+        a {
+            text-decoration: none;
+            color: #0D0D0D;
+        }
     }
 
     .main-header__list-items {
@@ -99,8 +117,17 @@
     #blog-button {
         background-color: $primary;
         padding: 10px;
-        color: white;        
+        color: white;
     }
+
+    .hamburger-menu {
+        display: none;
+        color: black;
+        font-size: 30px;
+        float: right;
+        padding-top: 50px;
+    }
+
 }
 
 .contact-header {
@@ -127,12 +154,18 @@
     .main-header__list-wrapper {
         display: inline;
         float: right;
+
+        a {
+            text-decoration: none;
+            color: #0D0D0D;
+        }
     }
 
     .main-header__list-items {
         display: inline-block;
         padding-top: 10px;
         padding-right: 150px;
+
     }
 
     .main-header__list-item {
@@ -141,9 +174,17 @@
         font-weight: bold;
     }
 
-    #contact-Button {
+    #contact-button {
         background-color: $primary;
         padding: 10px;
         color: white;
+    }
+
+    .hamburger-menu {
+        display: none;
+        color: black;
+        font-size: 30px;
+        float: right;
+        padding-top: 50px; 
     }
 }

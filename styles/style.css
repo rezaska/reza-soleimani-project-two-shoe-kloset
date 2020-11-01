@@ -266,6 +266,11 @@ html {
   float: right;
 }
 
+.main-header .main-header__list-wrapper a {
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
 .main-header .main-header__list-items {
   display: inline-block;
   padding-top: 10px;
@@ -302,6 +307,14 @@ html {
   bottom: 350px;
 }
 
+.main-header #hamburger {
+  display: none;
+  color: black;
+  font-size: 30px;
+  float: right;
+  padding-top: 50px;
+}
+
 .blog-header {
   background-image: url(/images/blog-header.jpg);
   background-position: center;
@@ -332,6 +345,11 @@ html {
   float: right;
 }
 
+.blog-header .main-header__list-wrapper a {
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
 .blog-header .main-header__list-items {
   display: inline-block;
   padding-top: 10px;
@@ -349,6 +367,14 @@ html {
   background-color: #4C0341;
   padding: 10px;
   color: white;
+}
+
+.blog-header .hamburger-menu {
+  display: none;
+  color: black;
+  font-size: 30px;
+  float: right;
+  padding-top: 50px;
 }
 
 .contact-header {
@@ -381,6 +407,11 @@ html {
   float: right;
 }
 
+.contact-header .main-header__list-wrapper a {
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
 .contact-header .main-header__list-items {
   display: inline-block;
   padding-top: 10px;
@@ -394,10 +425,18 @@ html {
   font-weight: bold;
 }
 
-.contact-header #contact-Button {
+.contact-header #contact-button {
   background-color: #4C0341;
   padding: 10px;
   color: white;
+}
+
+.contact-header .hamburger-menu {
+  display: none;
+  color: black;
+  font-size: 30px;
+  float: right;
+  padding-top: 50px;
 }
 
 .findout-more {
@@ -965,7 +1004,6 @@ p {
 
 .side-container .top-image-container {
   position: absolute;
-  bottom: -60px;
 }
 
 .side-container .side-text-container {
@@ -1069,7 +1107,7 @@ p {
   padding: 50px;
   -webkit-box-shadow: -30px 30px #FE6F19;
           box-shadow: -30px 30px #FE6F19;
-  height: 600px;
+  height: auto;
 }
 
 .get-intouch .form-container .message-form .name-item {
@@ -1122,4 +1160,189 @@ p {
   line-height: 32px;
   letter-spacing: 1px;
   padding: 10px;
+}
+
+@media (max-width: 1260px) {
+  .main-header .main-header__list-wrapper {
+    display: none;
+  }
+  .main-header .main-header__logo {
+    width: auto;
+    color: white;
+    padding-left: 20px;
+  }
+  .main-header #hamburger {
+    display: block;
+    color: black;
+    font-size: 25px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .main-header .main-header__main-text {
+    color: white;
+    width: auto;
+    padding-right: 50px;
+  }
+  .main-header .main-header__side-image {
+    display: none;
+  }
+  .findout-more .main__text-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+  }
+  .add-opt {
+    display: block;
+  }
+  .add-opt .flex-image1 {
+    text-align: center;
+  }
+  .add-opt .flex-text1 {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .add-opt .flex-text2 {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 90px;
+  }
+  .add-opt .flex-image2 {
+    text-align: center;
+  }
+  .info {
+    display: block;
+    height: auto;
+  }
+  .info .locations,
+  .info .community {
+    width: auto;
+    text-align: center;
+    padding-right: 40px;
+  }
+  .info .blog,
+  .info .intouch {
+    width: auto;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  .popular {
+    display: block;
+  }
+  .popular .popular-image {
+    padding-top: 50px;
+  }
+  .popular .popular-textbox {
+    width: auto;
+    text-align: center;
+    padding-right: 40px;
+  }
+  .gallery-images {
+    height: auto;
+  }
+  .blog-header {
+    height: 550px;
+    background-position: right;
+  }
+  .blog-header .main-header__list-wrapper {
+    display: none;
+  }
+  .blog-header .main-header__logo {
+    width: auto;
+    color: black;
+    padding-left: 20px;
+  }
+  .blog-header .hamburger-menu {
+    display: block;
+    color: black;
+    font-size: 25px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .main-container {
+    display: block;
+    background-color: white;
+  }
+  .main-container .side-container {
+    width: auto;
+    padding-top: 10px;
+  }
+  .main-container .side-container .top-image-container {
+    position: static;
+    text-align: center;
+  }
+  .main-container .side-container .side-text-container {
+    width: 100%;
+    float: none;
+    padding-top: 50px;
+  }
+  .main-container .side-container .side-text-container .paragraph--large {
+    padding-top: 20px;
+  }
+  .main-container .blog-container {
+    width: auto;
+    position: static;
+    float: none;
+  }
+  .main-container .blog-container .main-header__main-text {
+    display: inline;
+    font-size: 60px;
+    text-align: center;
+  }
+  .main-container .blog-container .blog-comments {
+    padding-left: 30px;
+  }
+  .main-container .blog-container .form-container {
+    display: block;
+    height: auto;
+    padding: 30px;
+  }
+  .main-container .blog-container .form-container .message-form {
+    height: auto;
+  }
+  .contact-header {
+    background-position: inherit;
+  }
+  .contact-header .main-header__list-wrapper {
+    display: none;
+  }
+  .contact-header .main-header__logo {
+    width: auto;
+    color: black;
+    padding-left: 20px;
+  }
+  .contact-header .hamburger-menu {
+    display: block;
+    color: black;
+    font-size: 25px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .get-intouch {
+    display: block;
+    height: auto;
+  }
+  .get-intouch .contact-info {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+  }
+  .get-intouch .form-container {
+    display: block;
+    position: static;
+    width: auto;
+  }
+  .get-intouch .form-container .form-header {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+  }
 }
