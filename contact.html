@@ -14,35 +14,18 @@
         <div class="main-header__logo">
             <p>Shoe Kloset</p>
         </div>
-        <div class="main-header__list wrapper">
+        <div class="main-header__list-wrapper">
             <ul class="main-header__list-items">
                 <li class="main-header__list-item"><a href="/index.html"></a>HOME</li>
                 <li class="main-header__list-item"><a href="/"></a>ABOUT</li>
                 <li class="main-header__list-item"><a href="/blog.html"></a>BLOG</li>
-                <li class="main-header__list-item"><a href="/"></a>CONTACT</li>
+                <li class="main-header__list-item" id="contact-Button"><a href="/"></a>CONTACT</li>
             </ul>
         </div>
     </header>
 
     <main>
         <section class="get-intouch">
-            <div class="form-container">
-                <div class="form-header">
-                    <p>GET IN TOUCH</p>
-                </div>
-                <form action="submit">
-                    <label for="name">Name</label>
-                    <input type="name">
-
-                    <label for="email">Email address</label>
-                    <input type="email">
-
-                    <label for="message">Message</label>
-                    <input type="message">
-
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
 
             <div class="contact-info">
                 <div class="social-media">
@@ -51,12 +34,44 @@
                     <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
                     <a href="www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
                 </div>
+                <div class="paragraph--large">
+                    <p>INFO@GMAIL.COM</p>
+                </div>
+                <div class="address">
+                    <p class="paragraph">
+                        123-456-7890 <br> 
+                        123 Queen Street West, Unit 10 <br>
+                        Toronto, Ontario <br>
+                        M5V2D5
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-header">
+                    <p>GET IN TOUCH</p>
+                </div>
+
+                <div class="message-form">
+                    <form action="/">
+                        <div class="name-item">
+                            <input type="text" name="name" placeholder="Name" />
+                            <input type="text" name="name" placeholder="Email address" />
+                        </div>
+                        <div class="message-item">
+                            <textarea rows="3" required placeholder="Message"></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="submit" href="/">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div class="footer">
             <p class="footer-text">Created at <a href="www.junocollege.com">Juno College</a> - 2020</p>
         </div>
     </footer>

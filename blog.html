@@ -20,13 +20,9 @@
             <ul class="main-header__list-items">
                 <li class="main-header__list-item"><a href="/index.html"></a>HOME</li>
                 <li class="main-header__list-item"><a href="/"></a>ABOUT</li>
-                <li class="main-header__list-item"><a href="/"></a>BLOG</li>
+                <li class="main-header__list-item" id="blog-button"><a href="/"></a>BLOG</li>
                 <li class="main-header__list-item"><a href="/contact.html"></a>CONTACT</li>
             </ul>
-        </div>
-
-        <div class="main-header__main-text">
-            <p>BLOG</p>
         </div>
     </header>
 
@@ -34,14 +30,14 @@
         <section class="main-container">
             <aside class="side-container">
                 <div class="top-image-container">
-                    <img src="images/sidebar-image.jpg" alt="">
+                    <img src="images/sidebar-image.jpg" alt="Nike shoes">
                 </div>
                 <div class="side-text-container">
                     <p class="paragraph--large">ANY WEATHER</p>
                     <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab alias ex, odio sed
                         iusto ratione.</p>
                     <p class="paragraph--large">RECENT POSTS</p>
-                    <ul>
+                    <ul class="paragraph">
                         <li>Lorem ipsum dolor sit</li>
                         <li>Lorem ipsum dolor sit</li>
                         <li>Lorem ipsum dolor sit</li>
@@ -51,8 +47,11 @@
             </aside>
 
             <section class="blog-container">
+                <div class="main-header__main-text">
+                    <P>BLOG</P>
+                </div>
                 <div class="blog-image">
-                    <img src="images/blog-post-image.jpg" alt="">
+                    <img src="images/blog-post-image.jpg" alt="Ladies walking in the street">
                 </div>
                 <div class="blog-text-container">
                     <div class="blog-text">
@@ -86,43 +85,49 @@
                         <p class="paragraph--large">COMMENTS:</p>
                     </div>
                     <div class="comment-container">
-                        <img src="images/comment-1.jpg" alt="">
-                        <p class="paragraph--small">Tuesday November 21th, 2019 by Jeremy</p>
-                        <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe,
-                            facilis, ab cupiditate recusandae rem minima voluptatum in architecto eius unde. Ipsam,
-                            excepturi culpa ab ratione totam velit nulla eaque quasi, expedita ad enim asperiores.
-                        </p>
+                        <img src="images/comment-1.jpg" alt="Jeremy">
+                        <div class="comment-text">
+                            <p class="paragraph--small">Tuesday November 21th, 2019 by Jeremy</p>
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe,
+                                facilis, ab cupiditate recusandae rem minima voluptatum in architecto eius unde. Ipsam,
+                                excepturi culpa ab ratione totam velit nulla eaque quasi, expedita ad enim asperiores.
+                            </p>
+                        </div>
                     </div>
                     <div class="comment-container">
-                        <img src="images/comment-2.jpg" alt="">
-                        <p class="paragraph--small">Wednesday November 10th, 2019 by Julia</p>
-                        <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe,
-                            facilis, ab cupiditate recusandae rem minima voluptatum in architecto eius unde. Ipsam,
-                            excepturi culpa ab ratione totam velit nulla eaque quasi, expedita ad enim asperiores.
-                        </p>
+                        <img src="images/comment-2.jpg" alt="Julia">
+                        <div class="comment-text">
+                            <p class="paragraph--small">Wednesday November 10th, 2019 by Julia</p>
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe,
+                                facilis, ab cupiditate recusandae rem minima voluptatum in architecto eius unde. Ipsam,
+                                excepturi culpa ab ratione totam velit nulla eaque quasi, expedita ad enim asperiores.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="form-container">
-                    <form action="submit">
-                        <label for="name">Name</label>
-                        <input type="name">
-                
-                        <label for="email">Email address</label>
-                        <input type="email">
-                
-                        <label for="comment">Comment</label>
-                        <input type="comment">
-                
-                        <input type="submit" value="POST COMMENT">
-                    </form>
+                    <div class="message-form">
+                        <form action="/">
+                            <div class="name-item">
+                                <input type="text" name="name" placeholder="Name" />
+                                <input type="text" name="name" placeholder="Email address" />
+                            </div>
+                            <div class="message-item">
+                                <textarea rows="3" required placeholder="Comment"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" href="/">POST COMMENT</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div class="footer">
             <p class="footer-text">Created at <a href="www.junocollege.com">Juno College</a> - 2020</p>
         </div>
     </footer>

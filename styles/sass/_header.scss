@@ -37,23 +37,25 @@
         font-family: 'Lato', sans-serif;
         font-weight: bold;
     }
+
+    #home-button {
+        background-color: $primary;
+        padding: 10px;
+        color: white;
+    }
     
     .main-header__main-text {
         @include fontSize(110px);
         width: 350px;
         line-height: 64px;
         margin-left: 150px;
+        padding-top: 220px;
     }
 
     .main-header__side-image {
         float: right;
         position: relative;
-        bottom: 400px;
-            // display: flex;
-            // flex-direction: row-reverse;
-            // position: absolute;
-            // bottom: 2%;
-            // right: 0%;
+        bottom: 350px;
     }
 }
 
@@ -62,8 +64,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
-    height: 800px;
+    height: 700px;
 
     .main-header__logo {
         @include fontSize(35px);
@@ -96,11 +97,54 @@
         font-weight: bold;
     }
 
-    .main-header__main-text {
-        @include fontSize(110px);
-        width: 350px;
-        line-height: 64px;
+    #blog-button {
+        background-color: $primary;
+        padding: 10px;
+        color: white;        
+    }
+}
+
+.contact-header {
+    background-image: url(/images/contact-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+        .main-header__logo {
+        @include fontSize(35px);
+        color: #0D0D0D;
+        width: 50px;
+        padding-top: 10px;
+        padding-left: 150px;
+        display: inline-block;
+    }
+
+    ul li{
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .main-header__list-wrapper {
         display: inline;
-        text-align: center;
+        float: right;
+    }
+
+    .main-header__list-items {
+        display: inline-block;
+        padding-top: 10px;
+        padding-right: 150px;
+    }
+
+    .main-header__list-item {
+        @include fontDef(20px, #0D0D0D);
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact-Button {
+        background-color: $primary;
+        padding: 10px;
+        color: white;
     }
 }
