@@ -262,7 +262,6 @@ html {
 }
 
 .main-header .main-header__list-wrapper {
-  display: inline-block;
   text-align: center;
   float: right;
 }
@@ -971,7 +970,6 @@ p {
 
 .side-container .side-text-container {
   background-color: white;
-  display: inline-block;
   padding-top: 450px;
   width: 80%;
   float: right;
