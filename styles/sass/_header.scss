@@ -28,6 +28,12 @@
             text-decoration: none;
             color: #0D0D0D;
         }
+
+        a:hover {
+            background-color: $primary;
+            padding: 10px;
+            color: #FE6F19;
+        }
     }
 
     .main-header__list-items {
@@ -100,6 +106,12 @@
             text-decoration: none;
             color: #0D0D0D;
         }
+
+        a:hover {
+            background-color: $primary;
+            padding: 10px;
+            color: #FE6F19;
+        }
     }
 
     .main-header__list-items {
@@ -158,6 +170,12 @@
         a {
             text-decoration: none;
             color: #0D0D0D;
+        }
+
+        a:hover {
+            background-color: $primary;
+            padding: 10px;
+            color: #FE6F19;
         }
     }
 
